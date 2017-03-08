@@ -1,12 +1,21 @@
 body {
     text-align: center;
     background: #B2E5CF;
-    color: #717272;
+    color: #B2E5CF;
     font-family: 'Stardos Stencil', cursive;
+    padding: 0;
+    margin: 0;
 }
-p {
+h2 {
     font-size: 30px;
     color: #8D9391;
+    padding-bottom: 0px;
+}
+p {font-size: 20px;
+    color: #8D9391;
+    max-width: 900px;
+    padding: 20px;
+    margin: 0 auto;
 }
 ul {
     padding: 10px;
@@ -23,11 +32,10 @@ a {
 h1 {
     font-size: 80px;
     font-family: 'Special Elite', cursive;
-    margin: 20px 10px 0px 10px;
+    margin: 0;
     padding-top: 250px;
 }
 .header {
     background-image: url('headerpic.JPG');
     background-size: cover;
-    background-color: black;
 }
