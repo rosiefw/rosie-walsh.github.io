@@ -1,7 +1,7 @@
 body {
     text-align: center;
-    background: #B2E5CF;
-    color: #B2E5CF;
+    background: #ccffff;
+    color: #ccffff;
     font-family: 'Stardos Stencil', cursive;
     padding: 0;
     margin: 0;
@@ -10,6 +10,7 @@ body {
     background-color: rgba(0,0,0,0.5);
     text-align: center;
     list-style: none;
+    padding-bottom: 10px;
 }
 .nav > li {
     display: inline-block;
@@ -19,7 +20,7 @@ body {
     color: #8D9391;
 }
 .nav > li > a:hover {
-    color: #B2E5CF;
+    color: #ccffff;
 }
 input {
     margin-bottom: 10px;
@@ -38,7 +39,7 @@ ul {
 }
 li {
     display: inline;
-    padding: 0px 35px 0px 35px;
+    padding: 0px 100px 0px 100px;
 }
 a {
     color: #8D9391;
@@ -72,3 +73,33 @@ h1 {
 .slick-image {
     width: 100%;
 }
+.fa {
+    padding: 5px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+    border-radius: 50%;
+    float: right;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    margin-left: 5px;
+}
+.fa-instagram {
+    background: #e6005c;
+    color: white;
+
+}
+
